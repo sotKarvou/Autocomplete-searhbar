@@ -1,0 +1,35 @@
+header {
+  width: 100vw;
+  height: 5rem;
+  background: hsl(192, 44%, 34%);
+  margin: 0 0 0 0;
+  display: flex;
+  place-content: center;
+}
+
+.title {
+    margin: auto;
+}
+
+h2 {
+    padding-block: 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    border: 0.15rem solid hsl(192, 44%, 34%);
+    margin: auto;
+}
+
+input:focus{
+    outline: none;
+    border: 0.15rem solid hsl(192, 44%, 64%);
+    font-size: medium;
+}
