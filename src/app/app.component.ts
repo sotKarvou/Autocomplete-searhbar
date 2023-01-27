@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable, pipe } from 'rxjs';
+import { QuerySearchService, Article } from './query-search.service';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,15 @@ import { BehaviorSubject } from 'rxjs';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'schoox-app';
+ 
   inputValue: string = '';
+  myResults: Article[] = [];
+  searchInitiated: boolean = false;
+  myres$: Observable<Article[]> = this.qs.searchTerm()
 
-  constructor(http: HttpClient) {}
+  constructor(private http: HttpClient, private qs:QuerySearchService) {}
 
   search(event: any) {
-    this.inputValue = event.target.value;
-    console.log(this.inputValue);
+   
   }
 }

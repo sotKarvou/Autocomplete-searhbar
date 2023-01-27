@@ -2,9 +2,16 @@
   <h1 class="title">Schoox App</h1>
 </header>
 <main>
-  <form>
-    <label class="title">Find your article</label>
-    <input type="text"(input)="search($event)"/>
-  </form>
-
+  <label class="title">Find your article</label>
+  <input type="text" (keyup)="search($event)" />
+  <section class="search-results">
+    <p *ngIf="myResults.length < 1 && searchInitiated; else results">
+      Results Not Found
+    </p>
+    <ng-template #results>
+      <div class="result-box" *ngFor="let result of myResults">
+        <p> {{result.attributes.title}} </p>
+      </div>
+    </ng-template>
+  </section>
 </main>
