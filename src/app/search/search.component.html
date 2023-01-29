@@ -1,0 +1,17 @@
+<main>
+  <label class="title">Find your article</label>
+  <input type="text" [formControl]="query" />
+  <section class="search-results">
+    <p
+      class="results"
+      *ngIf="articles.length === 0 && searchInitiated === true; else results"
+    >
+      Sorry Nothing Found
+    </p>
+    <ng-template #results>
+      <div class="results" *ngFor="let article of articles">
+        <p>{{ article.attributes.title }}</p>
+      </div>
+    </ng-template>
+  </section>
+</main>

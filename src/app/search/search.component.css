@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+label {
+  width: fit-content;
+  padding-top: 2rem;
+  margin-inline: auto;
+}
+
+input {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  border: 0.15rem solid hsl(192, 44%, 34%);
+  margin: auto;
+}
+
+input:focus {
+  outline: none;
+  border: 0.15rem solid hsl(192, 44%, 64%);
+  font-size: medium;
+}
+
+.search-results {
+  width: 20rem;
+  height: fit-content;
+  background: hsl(192, 44%, 60%);
+  border: 0.15rem solid hsl(192, 44%, 34%);
+  /* border-radius: 0.75rem; */
+  margin: 0rem auto 0rem auto;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+

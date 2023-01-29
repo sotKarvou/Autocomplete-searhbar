@@ -1,84 +1,82 @@
-{
-  "data": [
-    {
-      "type": "articles",
-      "id": "1",
-      "attributes": {
-        "title": "7 Ways to Retain More of Every Book You Read",
-        "body": "There are many benefits to reading more books, but perhaps my favorite is this: A good book can give you a new way to interpret your past experiences."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "2",
-      "attributes": {
-        "title": "The Beginner's Guide to Deliberate Practice",
-        "body": "In some circles, Ben Hogan is credited with 'inventing practice.'"
-      }
-    },
-    {
-      "type": "articles",
-      "id": "3",
-      "attributes": {
-        "title": "The Scientific Argument for Mastering One Thing at a Time",
-        "body": "any people, myself included, have multiple areas of life they would like to improve. "
-      }
-    },
-    {
-      "type": "articles",
-      "id": "4",
-      "attributes": {
-        "title": "Make Your Life Better by Saying Thank You in These 7 Situations",
-        "body": "I don’t say “Thank You” as often as I should and I doubt I’m the only one."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "5",
-      "attributes": {
-        "title": "How to Use Military Strategy to Build Better Habits",
-        "body": "Sun Tzu was a legendary military strategist in ancient China and he is the author of the famous book, The Art of War. He was a master of “soft power” and the father of “agile warfare.”"
-      }
-    },
-    {
-      "type": "articles",
-      "id": "6",
-      "attributes": {
-        "title": "How to Master the Invisible Hand That Shapes Our Lives",
-        "body": "Looking back, the most surprising thing about Robert Wadlow was his normal height and weight at birth. When he was born on February 22, 1918, Wadlow weighed 8 lbs 6 ounces (3.8 kg) and was 20 inches tall (0.51 m)."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "7",
-      "attributes": {
-        "title": "This Zen Concept Will Help You Stop Being a Slave to Old Beliefs",
-        "body": "I played baseball for 17 years of my life. During that time, I had many different coaches and I began to notice repeating patterns among them."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "8",
-      "attributes": {
-        "title": "The Chemistry of Building Better Habits",
-        "body": "There is a concept in chemistry known as activation energy."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "9",
-      "attributes": {
-        "title": "How to Stop Lying to Ourselves: A Call for Self-Awareness",
-        "body": "It was September of 1816 and two Parisian boys were playing in the courtyard of the Louvre, the famous museum in Paris."
-      }
-    },
-    {
-      "type": "articles",
-      "id": "10",
-      "attributes": {
-        "title": "If Nothing Changes, Nothing Is Going to Change",
-        "body": "If you have ever taken a few weeks off from exercise and then completed a strenuous workout, you may know what I’m about to say."
-      }
+[
+  {
+    "type": "articles",
+    "id": "1",
+    "attributes": {
+      "title": "7 Ways to Retain More of Every Book You Read",
+      "body": "There are many benefits to reading more books, but perhaps my favorite is this: A good book can give you a new way to interpret your past experiences."
     }
-  ]
-}
+  },
+  {
+    "type": "articles",
+    "id": "2",
+    "attributes": {
+      "title": "The Beginner's Guide to Deliberate Practice",
+      "body": "In some circles, Ben Hogan is credited with 'inventing practice.'"
+    }
+  },
+  {
+    "type": "articles",
+    "id": "3",
+    "attributes": {
+      "title": "The Scientific Argument for Mastering One Thing at a Time",
+      "body": "any people, myself included, have multiple areas of life they would like to improve. "
+    }
+  },
+  {
+    "type": "articles",
+    "id": "4",
+    "attributes": {
+      "title": "Make Your Life Better by Saying Thank You in These 7 Situations",
+      "body": "I don’t say “Thank You” as often as I should and I doubt I’m the only one."
+    }
+  },
+  {
+    "type": "articles",
+    "id": "5",
+    "attributes": {
+      "title": "How to Use Military Strategy to Build Better Habits",
+      "body": "Sun Tzu was a legendary military strategist in ancient China and he is the author of the famous book, The Art of War. He was a master of “soft power” and the father of “agile warfare.”"
+    }
+  },
+  {
+    "type": "articles",
+    "id": "6",
+    "attributes": {
+      "title": "How to Master the Invisible Hand That Shapes Our Lives",
+      "body": "Looking back, the most surprising thing about Robert Wadlow was his normal height and weight at birth. When he was born on February 22, 1918, Wadlow weighed 8 lbs 6 ounces (3.8 kg) and was 20 inches tall (0.51 m)."
+    }
+  },
+  {
+    "type": "articles",
+    "id": "7",
+    "attributes": {
+      "title": "This Zen Concept Will Help You Stop Being a Slave to Old Beliefs",
+      "body": "I played baseball for 17 years of my life. During that time, I had many different coaches and I began to notice repeating patterns among them."
+    }
+  },
+  {
+    "type": "articles",
+    "id": "8",
+    "attributes": {
+      "title": "The Chemistry of Building Better Habits",
+      "body": "There is a concept in chemistry known as activation energy."
+    }
+  },
+  {
+    "type": "articles",
+    "id": "9",
+    "attributes": {
+      "title": "How to Stop Lying to Ourselves: A Call for Self-Awareness",
+      "body": "It was September of 1816 and two Parisian boys were playing in the courtyard of the Louvre, the famous museum in Paris."
+    }
+  },
+  {
+    "type": "articles",
+    "id": "10",
+    "attributes": {
+      "title": "If Nothing Changes, Nothing Is Going to Change",
+      "body": "If you have ever taken a few weeks off from exercise and then completed a strenuous workout, you may know what I’m about to say."
+    }
+  }
+]

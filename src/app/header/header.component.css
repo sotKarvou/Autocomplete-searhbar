@@ -1,0 +1,13 @@
+header {
+    width: 100vw;
+    height: 5rem;
+    background: hsl(192, 44%, 34%);
+    margin: 0 0 0 0;
+    display: flex;
+    place-content: center;
+  }
+  
+  .title {
+    margin: auto;
+  }
+  
